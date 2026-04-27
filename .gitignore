@@ -1,0 +1,50 @@
+# ── Large dataset files (3 GB+ — share via Google Drive instead) ─
+cattlecare_dataset/ready_dataset/
+cattlecare_dataset/ready_dataset.zip
+cattlecare_dataset/augmented_dataset/
+cattlecare_dataset/augmented_from_raw/
+cattlecare_dataset/bucket_A_raw/
+cattlecare_dataset/bucket_B_roboflow/
+cattlecare_dataset/cleaned_A_raw/
+cattlecare_dataset/cleaned_B_roboflow/
+cattlecare_dataset/final_dataset/
+cattlecare_dataset/kaggle_downloads/
+cattlecare_dataset/raw_images/
+cattlecare_dataset/roboflow_downloads/
+cattlecare_dataset/classify_mdzillur_log.csv
+
+# ── ML model files (large — managed via Google Drive) ─────────────
+models/*.keras
+logs/
+
+# NOTE: deploy/ is intentionally NOT excluded.
+# deploy/cattlecare_v1.tflite and deploy/labels.txt are small
+# and needed by the React Native app — they SHOULD be on GitHub.
+
+# ── Python virtual environment ─────────────────────────────────────
+ml_env/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# ── IDE ────────────────────────────────────────────────────────────
+.vscode/
+.cursor/
+.idea/
+
+# ── OS ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Secrets ────────────────────────────────────────────────────────
+.env
+*.key
+secrets.json
