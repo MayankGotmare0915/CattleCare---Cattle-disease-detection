@@ -63,7 +63,7 @@ CattleCare/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/CattleCare.git
+git clone https://github.com/mayankgotmare15/CattleCare.git
 cd CattleCare
 
 # 2. Set up Python environment
@@ -86,7 +86,7 @@ python train.py
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/CattleCare.git
+git clone https://github.com/mayankgotmare15/CattleCare.git
 
 # 2. Copy deploy files into your Expo project
 cp deploy/cattlecare_v1.tflite  ../YourExpoApp/assets/ml/
